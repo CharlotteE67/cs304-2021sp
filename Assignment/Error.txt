@@ -1,0 +1,38 @@
+16:58:26.989 [main] ERROR MutationSupporter - Problem compiling the model with compliance level 8
+16:58:26.993 [main] ERROR MutationSupporter - The import org.apache cannot be resolved at /home/charlotte/astor/examples/java-faker/src/main/java/com/github/javafaker/Name.java:3
+spoon.compiler.ModelBuildingException: The import org.apache cannot be resolved at /home/charlotte/astor/examples/java-faker/src/main/java/com/github/javafaker/Name.java:3
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:635)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:617)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:97)
+	at fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:85)
+	at fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:240)
+	at fr.inria.astor.core.solutionsearch.AstorCoreEngine.initModel(AstorCoreEngine.java:776)
+	at fr.inria.main.evolution.AstorMain.createEngine(AstorMain.java:113)
+	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:173)
+	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:233)
+	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:204)
+spoon.compiler.ModelBuildingException: The import org.apache cannot be resolved at /home/charlotte/astor/examples/java-faker/src/main/java/com/github/javafaker/Name.java:3
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:635)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:617)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:97)
+	at fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:85)
+	at fr.inria.astor.core.manipulation.MutationSupporter.buildSpoonModel(MutationSupporter.java:253)
+	at fr.inria.astor.core.solutionsearch.AstorCoreEngine.initModel(AstorCoreEngine.java:776)
+	at fr.inria.main.evolution.AstorMain.createEngine(AstorMain.java:113)
+	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:173)
+	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:233)
+	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:204)
+16:58:28.391 [main] ERROR MutationSupporter - Error compiling: The import org.apache cannot be resolved at /home/charlotte/astor/examples/java-faker/src/main/java/com/github/javafaker/Name.java:3
+16:58:28.477 [main] ERROR MutationSupporter - Astor continues when model build fails. Classes created: 101
+Exception in thread "main" java.lang.NullPointerException
+	at com.gzoltar.core.GZoltar.run(GZoltar.java:51)
+	at fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:197)
+	at fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.calculateSuspicious(GZoltarFaultLocalization.java:87)
+	at fr.inria.astor.core.faultlocalization.gzoltar.GZoltarFaultLocalization.searchSuspicious(GZoltarFaultLocalization.java:42)
+	at fr.inria.astor.core.solutionsearch.AstorCoreEngine.calculateSuspicious(AstorCoreEngine.java:903)
+	at fr.inria.main.evolution.AstorMain.createEngine(AstorMain.java:119)
+	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:173)
+	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:233)
+	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:204)

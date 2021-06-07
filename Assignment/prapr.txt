@@ -1,0 +1,589 @@
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 2 minutes and 15 seconds
+> build mutation tests : 12 seconds
+> run mutation analysis : 27 minutes and 0 seconds
+--------------------------------------------------------------------------------
+> Total  : 29 minutes and 29 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 2163 mutations Killed 2163 (100%)
+>> Ran 1980 tests (0.92 tests per mutation)
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE
+>> Generated 25 Killed 25 (100%)
+> KILLED 24 SURVIVED 0 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_13
+>> Generated 21 Killed 21 (100%)
+> KILLED 21 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_14
+>> Generated 21 Killed 21 (100%)
+> KILLED 21 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.MathMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_15
+>> Generated 21 Killed 21 (100%)
+> KILLED 21 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_16
+>> Generated 17 Killed 17 (100%)
+> KILLED 17 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_17
+>> Generated 17 Killed 17 (100%)
+> KILLED 17 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningMethodCallGuardMutator_2
+>> Generated 23 Killed 23 (100%)
+> KILLED 22 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 1 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningMethodCallGuardMutator_3
+>> Generated 46 Killed 46 (100%)
+> KILLED 45 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 1 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_18
+>> Generated 17 Killed 17 (100%)
+> KILLED 17 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.NonVoidMethodCallGuardMutator_0
+>> Generated 79 Killed 79 (100%)
+> KILLED 79 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningMethodCallGuardMutator_0
+>> Generated 80 Killed 80 (100%)
+> KILLED 79 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 1 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_19
+>> Generated 17 Killed 17 (100%)
+> KILLED 17 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningMethodCallGuardMutator_1
+>> Generated 44 Killed 44 (100%)
+> KILLED 43 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 1 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_7
+>> Generated 40 Killed 40 (100%)
+> KILLED 40 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_6
+>> Generated 40 Killed 40 (100%)
+> KILLED 40 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.LocalNameMutator_2
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_9
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.LocalNameMutator_1
+>> Generated 4 Killed 4 (100%)
+> KILLED 4 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.experimental.RemoveIncrementsMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_8
+>> Generated 40 Killed 40 (100%)
+> KILLED 40 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.LocalNameMutator_0
+>> Generated 38 Killed 38 (100%)
+> KILLED 38 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator
+>> Generated 10 Killed 10 (100%)
+> KILLED 10 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_10
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_11
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_12
+>> Generated 21 Killed 21 (100%)
+> KILLED 21 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.NonVoidMethodCallRemovalMutator_0
+>> Generated 87 Killed 87 (100%)
+> KILLED 87 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.NonVoidMethodCallRemovalMutator_1
+>> Generated 21 Killed 21 (100%)
+> KILLED 21 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldNameMutator_5
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.NonVoidMethodCallRemovalMutator_2
+>> Generated 8 Killed 8 (100%)
+> KILLED 8 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_1
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldNameMutator_4
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_0
+>> Generated 40 Killed 40 (100%)
+> KILLED 40 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator
+>> Generated 108 Killed 108 (100%)
+> KILLED 108 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldNameMutator_3
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_3
+>> Generated 40 Killed 40 (100%)
+> KILLED 40 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldNameMutator_2
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_2
+>> Generated 40 Killed 40 (100%)
+> KILLED 40 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldNameMutator_1
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_5
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldNameMutator_0
+>> Generated 15 Killed 15 (100%)
+> KILLED 15 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF
+>> Generated 25 Killed 25 (100%)
+> KILLED 25 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_4
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator
+>> Generated 195 Killed 195 (100%)
+> KILLED 110 SURVIVED 0 TIMED_OUT 85 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldAccessToMethodCallMutator_0
+>> Generated 15 Killed 15 (100%)
+> KILLED 14 SURVIVED 0 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldAccessToMethodCallMutator_1
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.LocalToMethodCallMutator_0
+>> Generated 28 Killed 28 (100%)
+> KILLED 28 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator
+>> Generated 12 Killed 12 (100%)
+> KILLED 12 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningMethodCallGuardMutator_4
+>> Generated 14 Killed 14 (100%)
+> KILLED 13 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 1 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ArgumentPropagationMutator
+>> Generated 14 Killed 14 (100%)
+> KILLED 14 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF
+>> Generated 2 Killed 2 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.DereferenceGuardMutator_2
+>> Generated 21 Killed 21 (100%)
+> KILLED 21 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningDereferenceGuardMutator_0
+>> Generated 22 Killed 22 (100%)
+> KILLED 22 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.DereferenceGuardMutator_1
+>> Generated 3 Killed 3 (100%)
+> KILLED 3 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.DereferenceGuardMutator_0
+>> Generated 22 Killed 22 (100%)
+> KILLED 22 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningDereferenceGuardMutator_1
+>> Generated 8 Killed 8 (100%)
+> KILLED 8 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ReturningDereferenceGuardMutator_2
+>> Generated 15 Killed 15 (100%)
+> KILLED 15 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.VoidMethodCallGuardMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> MethodNameMutator_0
+>> Generated 44 Killed 44 (100%)
+> KILLED 44 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator
+>> Generated 13 Killed 13 (100%)
+> KILLED 13 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.experimental.NakedReceiverMutator
+>> Generated 13 Killed 13 (100%)
+> KILLED 13 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> MethodNameMutator_3
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 24 Killed 24 (100%)
+> KILLED 24 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> MethodNameMutator_4
+>> Generated 32 Killed 32 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 2 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> MethodNameMutator_1
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> MethodNameMutator_2
+>> Generated 9 Killed 9 (100%)
+> KILLED 9 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> MethodNameMutator_5
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_8
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_9
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldToLocalAccessMutator_1
+>> Generated 9 Killed 9 (100%)
+> KILLED 9 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldToLocalAccessMutator_0
+>> Generated 111 Killed 111 (100%)
+> KILLED 26 SURVIVED 0 TIMED_OUT 85 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_4
+>> Generated 12 Killed 12 (100%)
+> KILLED 12 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_5
+>> Generated 12 Killed 12 (100%)
+> KILLED 12 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_6
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_7
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_0
+>> Generated 38 Killed 38 (100%)
+> KILLED 37 SURVIVED 0 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_1
+>> Generated 20 Killed 20 (100%)
+> KILLED 20 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_2
+>> Generated 19 Killed 19 (100%)
+> KILLED 19 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.MethodNameMutator_3
+>> Generated 12 Killed 12 (100%)
+> KILLED 12 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.FieldToLocalAccessMutator_2
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 27 Killed 27 (100%)
+> KILLED 27 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator
+>> Generated 1 Killed 1 (100%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_20
+>> Generated 21 Killed 21 (100%)
+> KILLED 20 SURVIVED 0 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_21
+>> Generated 21 Killed 21 (100%)
+> KILLED 20 SURVIVED 0 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_22
+>> Generated 17 Killed 17 (100%)
+> KILLED 17 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.ArgumentsListMutator_23
+>> Generated 17 Killed 17 (100%)
+> KILLED 17 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.LocalToFieldAccessMutator_0
+>> Generated 22 Killed 22 (100%)
+> KILLED 22 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.mudebug.prapr.mutators.LocalToFieldAccessMutator_1
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29:36 min
+[INFO] Finished at: 2021-04-12T21:55:42+08:00
+[INFO] Final Memory: 13M/98M
+[INFO] ------------------------------------------------------------------------

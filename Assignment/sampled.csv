@@ -1,0 +1,13 @@
+query_url,keywords,close_url,usefulness,rank_usefulness,label_usefulness
+https://github.com/DiUS/java-faker/issues/587,generate time random date in:title,https://github.com/open-fidias/chance4j/pull/37,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/hmcts/sscs-track-your-appeal-notifications/pull/1502,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/crate/crate/pull/11151,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/elastic/elasticsearch/pull/69902,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/jOOQ/jOOQ/issues/11239,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/spring-projects/spring-integration/issues/3512,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/synthetichealth/synthea/issues/858,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/palantir/atlasdb/pull/5243,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/googleinterns/sgonks/pull/123,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/camunda-cloud/zeebe/pull/6381,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/spring-projects/spring-boot/issues/25113,N,,Not relavant
+https://github.com/DiUS/java-faker/issues/587,generate time random date,https://github.com/MarquezProject/marquez/pull/949,N,,Not relavant
